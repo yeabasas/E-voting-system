@@ -19,3 +19,6 @@ export const INITIAL_FEATURES = [
     path: "result",
   },
 ];
+
+export const TIMEOUT = 10000;
+export const SERVER_URL = process.env.REACT_APP_SERVER_URL ?? "";
